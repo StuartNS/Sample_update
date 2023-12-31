@@ -1,7 +1,93 @@
-[
-[
-"version":"1.1".
-"changelog":"StuartNS".
-"link":"www.youtube.com".
-]
-]
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        body {
+            background: linear-gradient(to right, #4b6cb7, #182848);
+            color: white;
+            font-family: fantasy;
+            text-align: center;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        .menu {
+            display: flex;
+            justify-content: space-around;
+            padding: 10px 0;
+        }
+
+        .menu a {
+            text-decoration: none;
+            color: white;
+            margin: 0 10px;
+            padding: 5px 10px;
+            border: 1px solid white;
+            border-radius: 5px;
+            background-color:purple;
+        }
+
+        .menu a:hover {
+            background: rgba(255, 255, 255, 0.1);
+        }
+
+        #home {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 30px;
+        }
+
+        #home img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+
+        #download-btn {
+            padding: 10px 20px;
+            background: purple;
+            color: white;
+            border: none;
+            border-radius: 20px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="menu">
+        <a href="#home">LIMITLESS APP</a>
+        <a href="#about">FRIENDLY AND</a>
+        <a href="#contact">UNLIMITED</a>
+        
+    </div>
+
+    <div id="home">
+        <h1>Welcome to NS Oviac</h1>
+        <h2>The Leading Ugandan entertainment app</h2>
+        <img src="https://image.jimcdn.com/app/cms/image/transf/dimension=640x10000:format=png/path/sb21de6c24726f488/image/icacd98879f7f8a51/version/1697988623/image.png" alt="NS Oviac App">
+        <h2><ul>
+            <li>No advertisments</li>
+            <li>No subscription</li>
+            <li>No immorality</li>
+        </ul></h2>
+<img src="https://image.jimcdn.com/app/cms/image/transf/dimension=640x10000:format=jpg/path/sb21de6c24726f488/image/i4fbdb1863b1b227f/version/1704019561/image.jpg" alt="">
+
+<h2><u>Please Scroll 🔻 down the page to download or upgrade to the latest version of NS OVIAC</u></h2>
+<img src="https://image.jimcdn.com/app/cms/image/transf/dimension=640x10000:format=jpg/path/sb21de6c24726f488/image/i7b94eebd4a09df61/version/1704019540/image.jpg" alt="">
+        <button id="download-btn"><h2>DOWNLOAD<br>APP</h2></button>
+            
+    </div>
+
+    <script>
+        document.getElementById('download-btn').addEventListener('click', function() {
+            window.location.href = '#download';
+        });
+    </script>
+
+</body>
+
+</html>
